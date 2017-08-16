@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgb(204,255,255);
+    background-image: url(LTVboc.jpg);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;  /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(204,255,255); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: initial;
+    cursor: pointer;
+}
+
+#myBtn {
+    color: blue;
+    cursor: pointer;
+}   
+
+img{
+    margin-left: 510px; 
+}
+
+h1{
+    margin-left: 670px;    
+    margin-top: -80px;
+
+}   
+#menu{
+    margin-left: 500px;
+    border-bottom: none;
+}
+
+ul, li{
+    list-style-type: none;
+    display: inline;
+}
+
+li:before{
+    content: "|";
+}
+
+li:first-child:before{
+    content: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Dropdown content*/
+.contact-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Cursor moves over contact button*/
+.contact:hover .contact-content{
+    display: block;
+}
+/* Change color of dropdown btn when dropdown-contents show*/
+.contact:hover .contact{
+    background-color: #3e8e41;
+}
+ .contact{
+    background-color: #4caf50;
+    cursor: pointer;
+ }
+.contact-content p{
+    color: black;
+}
